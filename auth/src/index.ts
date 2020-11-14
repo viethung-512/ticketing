@@ -2,6 +2,8 @@ import { connectDB } from './utils/db';
 import { app } from './utils/app';
 
 app.listen(3000, () => {
+  console.log('Starting up...');
+
   if (!process.env.JWT_KEY) {
     throw new Error('JWT_KEY must be defined');
   }
