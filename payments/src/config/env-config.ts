@@ -1,0 +1,2 @@
+export const STRIPE_SECRET_KEY =
+  'sk_test_51Hn3xjHudqXfXUFkBq6B1KW6hepmoBzmVRUrbJ6wQqyVsN4qHlhuoKOjqf2siehx0olb9hEb5dj8OyM3UXyMAtwB00qE71aSaZ';
